@@ -4,11 +4,13 @@
 
 <head> 
     <title>I test this</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 
 </head>
 
 
-<body style="background-color: #FFBC62;"> 
+<body > 
     <a href = "page2.html" target = _self title="This go to page 2"> 
         Page 2 </a>    
     <br>
@@ -17,16 +19,16 @@
         <source src = "audios/Hopeful - Nat Keefe.wav">
         This browser doesn't support HTML5 audio
         </audio>
-    <p> This is Text</p>
-    <p> This <b>is</b> Text</p>
-    <p> This is <i>Text</i></p>
-    <p> This is Text</p>
-    <p> This is <ins>Text</ins></p>
-    <p> This is <del>Text</del></p>
-    <p> This is <strong>Text</strong></p>
+    <p class = 'odd'> This is Text</p>
+    <p class = 'even'> This <b>is</b> Text</p>
+    <p class = 'odd'> This is <i>Text</i></p>
+    <p class = 'even'> This is Text</p>
+    <p id = 'p1' class ="odd"> This is <ins>Text</ins></p>
+    <p class = 'even'> This is <del>Text</del></p>
+    <p class = 'odd'> This is <strong>Text</strong></p>
 
-    <table bgcolor = "Darkblue" width = "500" > 
-        <tr bgcolor = "lightgray" align="Center"> 
+    <table class="tempTable" bgcolor = "Darkblue" width = "500" > 
+        <tr class="tempHeadColumn" align="Center"> 
             <th width = "60">Mon</th>
             <th width = "60">Tues</th>
             <th width = "60">Wed</th>
@@ -37,7 +39,7 @@
 
 
         </tr>
-        <tr bgcolor = "lightblue" align="Center"> 
+        <tr class="tempData" align="Center"> 
             <td>Open 9-5</td>
             <td>Closed</td>
             <td>Closed</td>

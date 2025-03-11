@@ -1,0 +1,36 @@
+#p1 {
+    color: red;
+}
+p.odd {
+    color: #229954;
+    font-family: "Brush Script MT";
+}
+p.even {
+    color: darkgreen;
+    font-family: "Inconsolata";
+    font-size: 25px;
+    font-style: oblique;
+}
+
+body {
+    background-image: url('images/Website.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+table.tempTable {
+    background : linear-gradient(to right, rgba(236, 110, 226, 0.603) , rgb(17, 91, 121));
+    background-attachment: fixed;
+    
+    border-color: black;
+
+}
+tr.tempHeadColumn {
+    border-color: aqua;
+}
+tr.tempData {
+    border-color: aqua;
+
+}
